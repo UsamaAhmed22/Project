@@ -1,0 +1,222 @@
+#logo
+{
+    position: absolute;
+    left: 8%;
+    top: 0;
+    font-size: 25px;
+    z-index: 997;
+    font-weight: bold;
+    color: #165397;
+    padding-top: 30px;
+}
+#navbar
+{
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fdfefe;
+    display: grid;
+    place-items: center;
+}
+#navbar ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+#navbar ul li
+{
+    font-size: 20px;
+    margin: 0 45px;
+    height: 55px;
+    width: 200px;
+    top: 20px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px 20px;
+    background:#165397; 
+}
+#navbar ul li a
+{
+    text-decoration: none;
+    color: #e9e9eb;
+}
+#navbar ul li a:hover
+{
+    color: #e9e9eb;
+}
+#navbar ul li:hover{
+  background: #000;
+}
+/* login button */
+#navbar ul #login
+{
+    height: 55px;
+    width: 140px;
+    position: absolute;
+    top: 20px;
+    right: 25%;
+    display: grid;
+    place-items: center;
+    background: #165397;
+    border-radius: 10px 20px;
+}
+#navbar ul #login a
+{
+    color: #e9e9eb;
+}
+#navbar ul #login:hover
+{
+    background: #000;
+}
+section{
+    padding: 2rem 9%;
+}
+section:nth-child(even){
+    width: 80vw;
+
+    margin: 5;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+.home{
+    display: flex;
+    align-items: center;
+    gap: 3.0rem;
+    padding-top: 10rem;
+}
+.home .image{
+    flex: 1 1 15rem;
+}
+.home .image img{
+    height: 20rem;
+    width: 33.375rem;
+}
+.home .content{
+    flex: 1 1 15rem;
+}
+.home .content h3 {
+    font-size: 2.0rem;
+    color: var(--black);
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
+}
+.home .content p{
+    font-size:1.4rem;
+    color: var(--light-color);
+    line-height: 1.8;
+    padding: 0.5rem 0;
+}
+.services .box-container .box{
+    width: 200px;
+    height: 200px;
+    border: 2px transparent;
+    padding: 50px;
+    border-radius: 30px;
+    background: #D9DDDC;
+}
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 2rem;
+    padding-left: 100px;
+}
+.services .heading{
+    background: #fff;
+    font-size: 2.8rem;
+    text-align: center;
+}
+.services .box-container .box h1{
+    font-size: 1.8rem;
+}
+.services .box-container .box h3{
+    font-size: 1.2rem;
+    padding: 0.1rem 0;
+    text-align: center;
+}
+.services .box-container .box p{
+    font-size: 1.0rem;
+    line-height: 2;
+    text-align: center;
+}
+.doctors .box-container{
+    gap: 5rem;
+    display: flex;
+    padding-left: 0px;
+}
+.doctors .box-container .box{
+    text-align: center;
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    border: 2px transparent;
+    padding: 50px;
+    border-radius: 30px;
+    background: #D9DDDC;
+}
+.doctors .box-container .box img{
+    height: 10rem;
+    border-radius: .5rem;
+}
+.doctors .box-container .box h3{
+    font-size: 1.2rem;
+}
+.doctors .box-container .box span{
+    font-size: 1.0rem;
+    text-align: center;
+}
+.book{
+    padding: 0px;
+    border-color: transparent;
+    border-radius: 40px;
+}
+.book .row{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.book .heading{
+    background: transparent;
+    padding-top: 100px;
+}
+.book .row form{
+    flex: 1 1 15rem;
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+.book .row form h3{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+.book .row form .box{
+    width: 50%;
+    margin: .7rem 0;
+    border-radius: .5rem;
+    font-size: 1.3rem;
+    text-transform: none;
+    padding: 1rem;
+}
+.book .row form .btn{
+    display: grid;
+    margin: auto;
+    font-size: 1rem;
+    background: #D9DDDC;
+    padding: 1rem 3rem;
+    border-radius: 20px;
+}
+.book .row form .btn:hover{
+    background: #165397;
+    color: white;
+}
+.footer .credit{
+    padding: 1rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+}

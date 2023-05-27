@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Dashboard</title>
+    <!-- css style link -->
+    <link rel="stylesheet" href="dashboard.css" />
+    <!-- Font Awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="heading">
+      <!-- logo -->
+      <div id="logo">
+        <a href="../home/index.html" style="text-decoration: none"
+          >PATIENT TRACKER</a
+        >
+      </div>
+      <!-- navbar -->
+      <div id="navbar">
+        <ul>
+          <li><a href="../dashboard/dashboard.html">Patient Dashboard</a></li>
+          <!-- login Button -->
+          <li id="login"><a href="../login/loginn.html">Patient Login</a></li>
+        </ul>
+      </div>
+    </div>
+    <section class="home">
+      <div class="image">
+        <img src="mainimg.png" />
+      </div>
+      <div class="content">
+        <h3>Stay Safe, Stay Healthy</h3>
+        <p>
+          Stay on Top of Your Health, With Our Patient Tracker System.Your
+          Personal Health Assistant!
+        </p>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <h1 class="heading">OUR SERVICES</h1>
+      <div class="box-container">
+        <div class="box">
+          <h3>PATIENT REGISTRATION</h3>
+          <p>
+            A form to register new patients with basic personal and contact
+            information
+          </p>
+        </div>
+        <div class="box">
+          <h3>PATIENT DASHBOARD</h3>
+          <p>
+            A dashboard where healthcare professionals can view a list of all
+            patients and their basic information.
+          </p>
+        </div>
+        <div class="box">
+          <h3>PATIENT RECORDS</h3>
+          <p>
+            A section for viewing and editing detailed patient records, such as
+            medical history, allergies, medications, and treatment plans.
+          </p>
+        </div>
+        <div class="box">
+          <h3>APPOINTMENT SCHEDULING</h3>
+          <p>
+            A calendar or scheduling tool for managing patient appointments and
+            follow-up visits.
+          </p>
+        </div>
+      </div>
+      <section class="doctors" id="doctors">
+        <h1 class="heading"><span>OUR DOCTORS</span></h1>
+        <div class="box-container">
+          <div class="box">
+            <img src="doc-1.jpg" alt="" />
+            <h3>Dr. John Deo</h3>
+            <span>Expert Doctor</span>
+          </div>
+          <div class="box">
+            <img src="doc-2.jpg" alt="" />
+            <h3>Dr. Pullen</h3>
+            <span>Expert Doctor</span>
+          </div>
+          <div class="box">
+            <img src="doc-3.jpg" alt="" />
+            <h3>Dr. Swallow</h3>
+            <span>Expert Doctor</span>
+          </div>
+        </div>
+      </section>
+      <section class="book" id="book">
+        <h1 class="heading"><span>BOOK NOW</span></h1>
+        <div class="row">
+          <form action="">
+            <h3>BOOK APPOINTMENT</h3>
+            <input type="text" placeholder="your name" class="box" />
+            <input type="number" placeholder="your number" class="box" />
+            <input type="email" placeholder="your email" class="box" />
+            <input type="date" class="box" />
+            <input type="submit" value="book now" class="btn" />
+          </form>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="credit">
+          Created by <span>Usama Ahmed</span> | All Right Reserved
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
